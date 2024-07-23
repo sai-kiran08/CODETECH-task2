@@ -1,3 +1,7 @@
+/* This is the javascript code for the website.I created windows for different purpose and added strutures and styling of the new windows in the javascript
+code only,so for that i have provided pngs*/
+
+
 document.addEventListener('DOMContentLoaded', function() {
     
     let cartItems = [];
