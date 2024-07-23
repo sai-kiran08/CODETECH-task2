@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plant Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="navbar-left">
+    <img src="https://cdn-icons-png.flaticon.com/128/45/45777.png" alt="Plant Shop Logo" class="logo">
+    <h1>Plant Shop</h1>
+  </div>
+  <div class="navbar-right">
+    <a id="login" href="#">User</a>
+    <a href="#">Favs</a>
+    <a id="view" href="view">Cart</a>
+  </div>
+</div>
+
+<div class="search-bar-container">
+  <div class="search-bar">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search plants...">
+    <button id="searchButton" class="search-button">Search</button>
+  </div>
+  <div class="sort-filter-container">
+    <div class="sort-section">
+      <button id="sortButton">Sort</button>
+      <div id="sortOptions" class="dropdown-content">
+        <a href="#" id="sortLowToHigh">Price: Low to High</a>
+        <a href="#" id="sortHighToLow">Price: High to Low</a>
+      </div>
+    </div>
+    <div class="filter-section">
+      <button id="filterButton">Filter</button>
+      <div id="filterOptions" class="dropdown-content">
+        <a href="#" data-family="Plants with Spotted Leaves">Plants with Spotted Leaves</a>
+        <a href="#" data-family="Leafy Plants">Leafy Plants</a>
+        <a href="#" data-family="Succulents">Succulents</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<marquee behavior="alternate" direction="right">
+  <div class="discount-section">
+    <h2>Festival Discount</h2>
+    <p>Get 20% off on all plants!</p>
+  </div>
+</marquee>
+<div class="para">
+<h6>"Growing plants indoors brings significant benefits. Firstly, they improve air quality by filtering pollutants and increasing oxygen levels. Additionally, indoor plants help regulate humidity through transpiration, maintaining a comfortable indoor climate. They also enhance mental well-being, reducing stress and promoting relaxation.
+   Furthermore, plants can boost productivity and focus, making workspaces more inspiring.
+   Their aesthetic appeal adds color and vitality to your home, enriching interior decor. Caring for plants provides educational value and fosters a sense of responsibility. Lastly, indoor plants offer a refreshing connection to nature and can contribute to better respiratory health by reducing airborne dust and allergens".</h6>
+   <h5 class="myh5">"Bring a touch of nature into your home—transform your space with the beauty of indoor plants."</h5>
+  </div>
+
+<div class="main-container">
+  <div class="new-plants-section">
+    <h2>New Plants</h2>
+    <div class="new-plant plant" data-name="Kalanchoe" data-price="566">
+      <img src="https://cdn.shopify.com/s/files/1/0579/7924/0580/products/2_1_360x.jpg?v=1676536807" alt="New Plant 1">
+      <div class="plant-details">
+        <div class="plant-name">Kalanchoe</div>
+        <div class="plant-price">PRICE: 566/-</div>
+        <div class="plant-buttons">
+          <button class="button">Add to Cart</button>
+          <button class="button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="new-plant plant" data-name="Delosperma" data-price="789">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Delosperma_lehmannii.jpg/330px-Delosperma_lehmannii.jpg" alt="New Plant 2">
+      <div class="plant-details">
+        <div class="plant-name">Delosperma</div>
+        <div class="plant-price">PRICE: 789/-</div>
+        <div class="plant-buttons">
+          <button class="button">Add to Cart</button>
+          <button class="button">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<div class="plant-families-container">
+  
+  <div class="plant-family">
+    <h2>Plants with Spotted Leaves</h2>
+    <div class="plant-list">
+      <div class="plant" data-name="Polka Dot Plant" data-price="998" data-family="Plants with Spotted Leaves">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi2cGEz-EwZDS3KleBB-yuGz0Vi_PwVdA2oiuBY70wPaaDZrSQ" alt="Polka Dot Plant">
+        <div class="plant-details">
+          <div class="plant-name">Polka Dot Plant</div>
+          <div class="plant-price">PRICE: 998/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plant" data-name="Spotted Dracaena ‘Florida Beauty’" data-price="1699" data-family="Plants with Spotted Leaves">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp5sk8pUtyYWJlyRG2RJY6PJCi8VXF-lzirg&s" alt="Spotted Dracaena">
+        <div class="plant-details">
+          <div class="plant-name">Spotted Dracaena ‘Florida Beauty’</div>
+          <div class="plant-price">PRICE: 1699/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plant" data-name="Common Lungwort" data-price="1599" data-family="Plants with Spotted Leaves">
+        <img src="https://cdn.britannica.com/84/118184-004-D07A89C5/Lungwort.jpg" alt="Common Lungwort">
+        <div class="plant-details">
+          <div class="plant-name">Common Lungwort</div>
+          <div class="plant-price">PRICE: 1599/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="plant-family">
+    <h2>Leafy Plants</h2>
+    <div class="plant-list">
+      <div class="plant" data-name="Philodendron Birkin Plant" data-price="599"  data-family="Leafy Plants">
+        <img src="https://i0.wp.com/theaffordableorganicstore.com/wp-content/uploads/2022/06/Products-11.jpg?resize=441%2C441&ssl=1" alt="Philodendron Birkin">
+        <div class="plant-details">
+          <div class="plant-name">Philodendron Birkin Plant </div>
+          <div class="plant-price">PRICE: 599/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plant" data-name="Rubber Plant" data-price="899" data-family="Leafy Plants">
+        <img src="https://i0.wp.com/theaffordableorganicstore.com/wp-content/uploads/2022/02/WhatsApp-Image-2024-05-30-at-12.33.42-PM.jpeg?resize=441%2C441&ssl=1" alt="Rubber Plant">
+        <div class="plant-details">
+          <div class="plant-name">Rubber Plant Sapling</div>
+          <div class="plant-price">PRICE: 899/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plant" data-name="Spider Plant" data-price="458" data-family="Leafy Plants">
+        <img src="https://i0.wp.com/theaffordableorganicstore.com/wp-content/uploads/2022/02/Spider-Plant-Leaves.webp?resize=300%2C300&ssl=1" alt="Spider Plant">
+        <div class="plant-details">
+          <div class="plant-name">Spider Plant</div>
+          <div class="plant-price">PRICE: 458/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="plant-family">
+    <h2>Succulents</h2>
+    <div class="plant-list">
+      <div class="plant" data-name="Jade Plant Mini" data-price="599" data-family="Succulents">
+        <img src="https://www.ugaoo.com/cdn/shop/products/LagosPlanter-Grey_f26c8dee-c8ce-4e1a-bec7-86006f560c98.jpg?v=1680418283&width=375" alt="Jade Plant">
+        <div class="plant-details">
+          <div class="plant-name">Jade Plant Mini</div>
+          <div class="plant-price">PRICE: 599/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plant" data-name="Snake Plant - Golden Hahnii" data-price="499" data-family="Succulents">
+        <img src="https://www.ugaoo.com/cdn/shop/products/AtlantisPlanter-Teal_3edaf641-904e-485f-9d80-e11293f26546.jpg?v=1680435202&width=375" alt="Snake Plant">
+        <div class="plant-details">
+          <div class="plant-name">Snake Plant - Golden Hahnii</div>
+          <div class="plant-price">PRICE: 499/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="plant" data-name="Variegated Jade Mini Plant" data-price="374" data-family="Succulents">
+        <img src="https://www.ugaoo.com/cdn/shop/files/DSC_9012.jpg?v=1706609672" alt="Variegated Jade Plant">
+        <div class="plant-details">
+          <div class="plant-name">Variegated Jade Mini Plant</div>
+          <div class="plant-price">PRICE: 374/-</div>
+          <div class="plant-buttons">
+            <button class="button">Add to Cart</button>
+            <button class="button">Buy Now</button>
+          </div>
+    </div>
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
