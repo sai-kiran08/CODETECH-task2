@@ -14,6 +14,14 @@
 
 
 **OVER VIEW OF THE PROJECT**
+![navbar](https://github.com/user-attachments/assets/4fb0bc54-8df0-48e0-9423-0058a9dae8ef)
+
+![plants](https://github.com/user-attachments/assets/00a2262f-33a1-466f-9f89-30acbbe1de36)
+
+![user](https://github.com/user-attachments/assets/0b0dc816-0cfa-423e-9c2d-6e481b3f7cb0)
+
+![payment](https://github.com/user-attachments/assets/0ee8004e-5eb9-4f5e-8e9c-2aba223f92d8)
+
 
 ***Project:*** Ecommerce Website using HTML, CSS, and JavaScript.
 
